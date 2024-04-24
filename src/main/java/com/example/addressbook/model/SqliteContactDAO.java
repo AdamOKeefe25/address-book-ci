@@ -15,7 +15,7 @@ public class SqliteContactDAO implements IContactDAO {
     private Connection connection;
 
     /**
-     * Creates a new connection to the specified database
+     * Creates a new connection to the specified database.
      */
     public SqliteContactDAO() {
         connection = SqliteConnection.getInstance();
